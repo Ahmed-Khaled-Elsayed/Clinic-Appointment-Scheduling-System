@@ -5,7 +5,7 @@
 #include <iostream>
 using namespace std;
 
-// Person Class
+// Person Class (Base)
 class Person {
     protected:
         static int nextPersonID;            // shared counter => auto-generated ID
@@ -22,11 +22,11 @@ class Person {
             phoneNumber = "Unknown";
         };
         // parametrized constructor
-        Person(string name, int age, string phoneNumber) {
+        Person(string name, int age, string phone) {
             personID = nextPersonID++;
             this->name = name;
             this->age = age;
-            this->phoneNumber = phoneNumber;
+            this->phoneNumber = phone;
         };
         // getters
         int getPersonID() {
