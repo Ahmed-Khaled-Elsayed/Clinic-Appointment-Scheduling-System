@@ -1,5 +1,5 @@
 #include <iostream>
-#include "include/screenFunctions.h"
+#include "screenFunctions.h"
 using namespace std;
 
 

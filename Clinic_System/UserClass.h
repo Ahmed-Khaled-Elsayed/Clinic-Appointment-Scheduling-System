@@ -18,7 +18,7 @@ class User: public Person {
         // default constructor
         User(): Person(), username(""), password(""), role("") {}
         // parametrized constructor
-        User(string name, int age, string phoneNumber, string username, string password, string role): 
+        User(string name, int age, string phoneNumber, string username, string password, string role):
             Person(name, age, phoneNumber), username(username), password(password), role(role) {}
         // getters
         string getUsername() {
@@ -73,7 +73,7 @@ class User: public Person {
             // bool confirmed = false;
 
             // renderMenu(choice, highlight, reset);
-            
+
             // while (!confirmed) {
             //     int key = readKey();
             //     int oldChoice = choice;
@@ -104,7 +104,7 @@ class User: public Person {
             //         renderMenu(choice, highlight, reset);
             //     }
             // }
-            
+
             // return choice;
         };
 };
