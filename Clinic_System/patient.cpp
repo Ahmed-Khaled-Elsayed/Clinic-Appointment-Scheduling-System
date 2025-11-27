@@ -3,8 +3,8 @@
 
 using namespace std;
 
-Patient::Patient(int id, string name, int age, string phone, int qNum)
-    : Person(id, name, age, phone) {
+Patient::Patient(string name, int age, string phone, int qNum)
+    : Person(name, age, phone) {
     this->queueNumber = qNum;
 }
 void Patient::setQueueNumber(int q) {
@@ -15,6 +15,7 @@ int Patient::getQueueNumber() const {
 }
 void Patient::printInfo() {
     cout << "Patient Info:-" << endl;
+    cout<<"Patient name: "<<Person::getName()<<endl;
+    cout<<"Patient age: "<<Person::getAge()<<endl;
     cout << "Queue No: " << queueNumber << endl;
-    Person::printInfo();
 }
