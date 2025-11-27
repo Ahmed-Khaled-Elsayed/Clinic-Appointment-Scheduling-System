@@ -9,15 +9,16 @@ This system simplifies scheduling, ensures accuracy, and improves the organizati
 
 ## <strong>System Objectives</strong>
 
-1. Streamline the process of scheduling and managing clinic appointments.  
-2. Provide a simple, conflict-free method for booking doctor–patient appointments.  
-3. Reduce manual errors caused by paper-based or spreadsheet scheduling.  
-4. Offer an organized structure for storing doctor and patient information.  
-5. Implement a lightweight system using C++ and OOP concepts.  
-6. Provide an intuitive, menu-driven console interface for clinic staff.  
-7. Allow staff to view, add, modify, and delete appointment records.  
-8. Demonstrate a full SDLC workflow for academic and portfolio purposes.
-
+1. The system shall allow registered Admins, Doctors, and Receptionists to log in using a secure email and password.
+2. The system shall validate credentials and load the user dashboard within 3 seconds. It must support three distinct access levels: Admin, Doctor, and Receptionist.
+3. The Admin shall be able to Create, Read, Update, and Delete (CRUD) accounts for Doctors and Receptionists, managing fields for Name, ID, Specialty, and Contact Info.
+3. The Receptionist shall be able to create a new appointment for a patient by selecting a specific Doctor.
+4. The system shall automatically assign a unique, sequential Queue Number to each patient upon 'Check-In' to manage the service order.
+5. The Doctor shall be able to view a filtered list of appointments scheduled specifically for them for the current day.
+6. The Receptionist shall be able to Cancel upcoming appointments upon patient request.
+7. The system shall display a dashboard allowing the Receptionist to view a list of all Doctors and the total count of active appointments for each Doctor for the selected date.
+8. The system shall be a web-based application accessible via standard browsers (Chrome, Edge, Firefox) on Windows 10/11 and macOS.
+9. The user interface shall be designed such that a new Receptionist can book an appointment within 2 minutes of their first login without requiring external assistance.
 
 ## <strong>Development Model</strong>
 
