@@ -10,7 +10,7 @@ private:
     int queueNumber;
 
 public:
-    Patient(int id, string name, int age, string phone, int qNum);
+    Patient(string name, int age, string phone, int qNum);
     void setQueueNumber(int q);
     int getQueueNumber() const;
     void printInfo() override;
