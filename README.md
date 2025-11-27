@@ -9,14 +9,14 @@ This system simplifies scheduling, ensures accuracy, and improves the organizati
 
 ## <strong>System Objectives</strong>
 
-Streamline the process of scheduling and managing clinic appointments.
-Provide a simple, conflict-free method for booking doctor–patient appointments.
-Reduce manual errors caused by paper-based or spreadsheet scheduling.
-Offer an organized structure for storing doctor and patient information.
-Implement a lightweight system using C++ and OOP concepts.
-Provide an intuitive, menu-driven console interface for clinic staff.
-Allow staff to view, add, modify, and delete appointment records.
-Demonstrate a full SDLC workflow for academic and portfolio purposes.
+- Streamline the process of scheduling and managing clinic appointments.
+- Provide a simple, conflict-free method for booking doctor–patient appointments.
+- Reduce manual errors caused by paper-based or spreadsheet scheduling.
+- Offer an organized structure for storing doctor and patient information.
+- Implement a lightweight system using C++ and OOP concepts.
+- Provide an intuitive, menu-driven console interface for clinic staff.
+- Allow staff to view, add, modify, and delete appointment records.
+- Demonstrate a full SDLC workflow for academic and portfolio purposes.
 
 ## <strong>Development Model</strong>
 
