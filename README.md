@@ -89,3 +89,39 @@ Since the system is simple and requirements may evolve, Agile helps deliver feat
 
 ## **5. Maintainability**
 - The system shall follow OOP principles and use a modular structure.
+
+
+# 📘 UML Diagrams
+
+Below are the main UML diagrams used in designing the system.  
+Replace the image placeholders with your actual diagram files once uploaded to GitHub.
+
+---
+
+## 🧱 **1. Class Diagram**
+Illustrates the main classes in the system and their relationships.
+
+![Class Diagram](./Diagrams/class%20diagram.png)
+
+---
+
+## 🎭 **2. Use Case Diagram**
+Shows all actors and interactions with the system.
+
+![Use Case Diagram](./Diagrams/use%20case%20diagram.png)
+
+---
+
+## 🔄 **3. Activity Diagram**
+Describes the workflow of scheduling and managing appointments.
+
+![Activity Diagram](./Diagrams/activity%20diagram.png)
+
+## 🔁 **4. Sequence Diagram**
+Illustrates the interaction flow between objects during appointment creation.
+
+## Sequence Diagram – Make Appointment
+![Sequence Diagram](./Diagrams/sequence%20diagram%20-%20Make%20Appointment.png)
+
+## Sequence Diagram – Show All Doctors
+![Sequence Diagram](./Diagrams/sequence%20diagram%20-%20Show%20All%20Doctors.png)
