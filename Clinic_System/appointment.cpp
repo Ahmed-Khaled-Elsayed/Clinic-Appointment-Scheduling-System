@@ -2,8 +2,9 @@
 #include <iostream>
 using namespace std;
 
-Appointment::Appointment(int id, int dID, int pID) {
-    this->appointmentID = id;
+Appointment::Appointment(int dID, int pID) {
+    ++counter;
+    this->appointmentID = counter;
     this->doctorID = dID;
     this->patientID = pID;
 }
