@@ -106,12 +106,9 @@ if (!flag)
 	}
 
 	Appointment* Receptionist::bookAppointment() {
-		int aId, pId, dId;
+		int pId, dId;
 
 cout << "================== Add New Appointment ==================\n";
-
-cout << "Enter appointment ID : ";
-cin >> aId;
 
 cout << "Enter patient ID     : ";
 cin >> pId;
@@ -122,7 +119,7 @@ cin >> dId;
 cout << "----------------------------------------------------------\n";
 cout << " Appointment created successfully!\n";
 
-return new Appointment(aId, dId, pId);
+return new Appointment(dId, pId);
 
 	}
 
