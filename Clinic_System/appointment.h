@@ -9,8 +9,9 @@ private:
     int appointmentID;
     int doctorID;
     int patientID;
+    static inline int counter =3000;
 public:
-    Appointment(int id, int dID, int pID);
+    Appointment(int dID, int pID);
     int getAppointmentID() const;
     int getDoctorID() const;
     int getPatientID() const;
