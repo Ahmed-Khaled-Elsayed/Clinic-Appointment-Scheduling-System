@@ -1,38 +1,37 @@
-#pragma once
+#ifndef DOCTOR_H_INCLUDED
+#define DOCTOR_H_INCLUDED
 
-#include "User.h"
+#include <string>
+#include <iostream>
+#include <vector>
+#include "UserClass.h"
+#include "appointment.h"
+using namespace std;
 
 class Doctor : public User
 {
-	
 private:
-	static int counter;
-	string speciality;
+    static int counter;
+    string speciality;
 
 public:
-	Doctor() : User(), speciality("") {
-		personID = counter;
-		counter++;
-	}
+    // Constructors
+    Doctor();
+    Doctor(string name, int age, string phoneNumber, string username,
+           string password, string spec);
 
-	Doctor(string name, int age, string phoneNumber, string username, string password, string role, string spec) :
-		User(name, age, phoneNumber, username, password, role), speciality(spec) {
-		personID = counter;
-		counter++;
-	}
+    // Setters & Getters
+    void setSpec(string spec);
+    string getSpec();
 
-
-	void setSpec(string spec) { this->speciality = spec; }
-	string getSpec() { return speciality; }
-
-	void viewMyAppointments() { cout << "view all doctors appointments"; }
-
-	void printInfo() override {
-		cout << this->getName() << " | Age: " << this->getAge() << " | Phone no: " << this->getPhoneNumber()
-			<< " | UserName: " << this->getUsername() << " | Specialization: " << speciality << endl;
-	}
+    // Methods
+    void viewMyAppointments(vector<Appointment*>&appointments);
+    void printInfo() override;
 
 };
 
 inline int Doctor::counter = 2000;
 
+
+
+#endif // DOCTOR_H_INCLUDED

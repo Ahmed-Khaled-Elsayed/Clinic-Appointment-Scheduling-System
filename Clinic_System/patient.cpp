@@ -13,9 +13,15 @@ void Patient::setQueueNumber(int q) {
 int Patient::getQueueNumber() const {
     return queueNumber;
 }
+int Patient::getPatientID()
+{
+    return getPersonID();
+}
 void Patient::printInfo() {
-    cout << "Patient Info:-" << endl;
-    cout<<"Patient name: "<<Person::getName()<<endl;
-    cout<<"Patient age: "<<Person::getAge()<<endl;
-    cout << "Queue No: " << queueNumber << endl;
+    cout << "================== Patient Info =================\n";
+    cout << "Name       : " << Person::getName() << "\n";
+    cout << "Age        : " << Person::getAge() << "\n";
+    cout << "Queue No   : " << queueNumber << "\n";
+    cout << "=================================================\n";
+
 }

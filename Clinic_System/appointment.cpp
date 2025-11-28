@@ -28,7 +28,12 @@ void Appointment::setPatientID(int pID) {
     patientID = pID;
 }
 void Appointment::printInfo() const {
-    cout << "Appointment ID: " << appointmentID
-         << " | Doctor ID: " << doctorID
-         << " | Patient ID: " << patientID << endl;
+cout << "\n---------------------------------------------\n";
+cout << "            APPOINTMENT DETAILS\n";
+cout << "---------------------------------------------\n";
+cout << " Appointment ID : " << appointmentID << "\n";
+cout << " Doctor ID      : " << doctorID << "\n";
+cout << " Patient ID     : " << patientID << "\n";
+cout << "---------------------------------------------\n";
+
 }

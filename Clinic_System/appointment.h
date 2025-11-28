@@ -1,6 +1,7 @@
 #ifndef APPOINTMENT_H_INCLUDED
 #define APPOINTMENT_H_INCLUDED
 
+
 using namespace std;
 
 class Appointment {
@@ -18,4 +19,4 @@ public:
     void printInfo() const;
 };
 
-#endif
+#endif // APPOINTMENT_H_INCLUDED

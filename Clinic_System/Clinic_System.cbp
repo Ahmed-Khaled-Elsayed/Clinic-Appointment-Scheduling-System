@@ -32,7 +32,22 @@
 			<Add option="-Wall" />
 			<Add option="-fexceptions" />
 		</Compiler>
+		<Unit filename="PersonClass.h" />
+		<Unit filename="ScreenFunctions.h" />
+		<Unit filename="UserClass.h" />
+		<Unit filename="admin.cpp" />
+		<Unit filename="admin.h" />
+		<Unit filename="appointment.cpp" />
+		<Unit filename="appointment.h" />
+		<Unit filename="doctor.cpp" />
+		<Unit filename="doctor.h" />
 		<Unit filename="main.cpp" />
+		<Unit filename="patient.cpp" />
+		<Unit filename="patient.h" />
+		<Unit filename="receptionist.cpp" />
+		<Unit filename="receptionist.h" />
+		<Unit filename="system.cpp" />
+		<Unit filename="system.h" />
 		<Extensions>
 			<lib_finder disable_auto="1" />
 		</Extensions>

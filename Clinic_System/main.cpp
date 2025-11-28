@@ -1,17 +1,13 @@
+
 #include <iostream>
-#include "screenFunctions.h"
+#include "system.h"
 using namespace std;
 
 
 int main() {
-    enableRawMode();   // enable raw input
 
-    /*
-        Add Our Code Here
-    */
-
-    disableRawMode();  // restore terminal mode
-    clearScreen();
+   ClinicSystem sys;
+   sys.start();
 
     return 0;
 }

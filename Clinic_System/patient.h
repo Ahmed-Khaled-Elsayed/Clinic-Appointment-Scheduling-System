@@ -3,7 +3,7 @@
 
 using namespace std;
 
-#include "Person.h"
+#include "PersonClass.h"
 
 class Patient : public Person {
 private:
@@ -14,6 +14,9 @@ public:
     void setQueueNumber(int q);
     int getQueueNumber() const;
     void printInfo() override;
+    int getPatientID();
 };
 
-#endif
+
+
+#endif // PATIENT_H_INCLUDED
