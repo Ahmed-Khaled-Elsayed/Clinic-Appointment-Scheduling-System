@@ -21,16 +21,20 @@ void Doctor::viewMyAppointments(vector<Appointment*>& appointments) {
     cout << "\n---------------------------------------------\n";
     cout << "            YOUR APPOINTMENTS DETAILS\n";
     cout << "---------------------------------------------\n";
+    int counterApp=0;
     for(auto a: appointments)
     {
         if(a->getDoctorID() == this->getPersonID())
         {
                 cout << " Appointment ID : " << (a->getAppointmentID()) << "\n";
-                cout << " Doctor ID      : " << (a->getDoctorID()) << "\n";
+                cout << " Doctor ID      : " << (a->getDoctorID()) << "\t"<<" Doctor Name      : "<<this->getName()<<endl;
                 cout << " Patient ID     : " << (a->getPatientID()) << "\n";
                 cout << "---------------------------------------------\n";
-
+                counterApp++;
         }
+    }
+    if(counterApp==0){
+        cout<<"No Appointments are here"<<endl;
     }
     }
 
